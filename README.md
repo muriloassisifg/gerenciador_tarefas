@@ -129,142 +129,104 @@ Antes de enviar seu código, teste-o! Você pode executar seu script diretamente
 
 
 
-### Lista de 20+ Funcionalidades (Foco: Strings, Listas, Dicionários)
-Cada aluno implementará sua função em um arquivo separado dentro de funcionalidades_alunos/. A função principal do arquivo do aluno deve se chamar executar(). Esta função será responsável por pedir qualquer input necessário ao usuário e imprimir o resultado da operação.
+---
+# Lista de 20+ Funcionalidades (Foco: Strings, Listas, Dicionários)
 
-Grupo: Utilitários de Strings
+Cada aluno implementará sua função em um arquivo separado dentro de `funcionalidades_alunos/`. A função principal do arquivo do aluno deve se chamar `executar()`. Esta função será responsável por pedir qualquer `input` necessário ao usuário e imprimir o resultado da operação.
 
-Contar Vogais em String:
-Arquivo: [nome_aluno]_str_contar_vogais.py
-Função executar(): Pede um texto e imprime: "O texto '[texto]' possui X vogais."
+---
+## Grupo: Utilitários de Strings
 
-Contar Consoantes em String:
-Arquivo: [nome_aluno]_str_contar_consoantes.py
-Função executar(): Pede um texto e imprime: "O texto '[texto]' possui X consoantes."
+* **Contar Vogais em String - André Luiz Moraes Jarczewski**
+    * Arquivo: `andre_jarczewski_str_contar_vogais.py`
+    * Função `executar()`: Pede um texto e imprime: "O texto '[texto]' possui X vogais."
 
-Inverter String:
-Arquivo: [nome_aluno]_str_inverter.py
-Função executar(): Pede um texto e imprime: "Texto invertido: [texto_invertido]."
+* **Contar Consoantes em String - Arthur Parreira Alves Ferreira**
+    * Arquivo: `arthur_ferreira_str_contar_consoantes.py`
+    * Função `executar()`: Pede um texto e imprime: "O texto '[texto]' possui X consoantes."
 
-Verificar Palíndromo:
-Arquivo: [nome_aluno]_str_palindromo.py
-Função executar(): Pede um texto e imprime se é ou não um palíndromo (desconsiderar espaços e maiúsculas/minúsculas para a verificação).
+* **Inverter String - Gabriel de Souza Prado**
+    * Arquivo: `gabriel_prado_str_inverter.py`
+    * Função `executar()`: Pede um texto e imprime: "Texto invertido: [texto\_invertido]."
 
-Contar Palavras em String:
-Arquivo: [nome_aluno]_str_contar_palavras.py
-Função executar(): Pede um texto e imprime: "O texto contém X palavras."
+* **Verificar Palíndromo - Geovana Nunes Santos Silva**
+    * Arquivo: `geovana_silva_str_palindromo.py`
+    * Função `executar()`: Pede um texto e imprime se é ou não um palíndromo (desconsiderar espaços e maiúsculas/minúsculas para a verificação).
 
-Contar Ocorrências de Substring:
-Arquivo: [nome_aluno]_str_contar_substring.py
-Função executar(): Pede um texto principal e uma substring, e imprime: "A substring '[substring]' aparece X vezes em '[texto]'."
+* **Contar Palavras em String - Guilherme Evangelista Honorato**
+    * Arquivo: `guilherme_honorato_str_contar_palavras.py`
+    * Função `executar()`: Pede um texto e imprime: "O texto contém X palavras."
 
-Remover Espaços Extras:
-Arquivo: [nome_aluno]_str_remover_espacos.py
-Função executar(): Pede um texto com possíveis espaços extras (início, fim, múltiplos entre palavras) e imprime o texto com espaços normalizados.
+* **Contar Ocorrências de Substring - Guilherme Henrique Silva e Souza**
+    * Arquivo: `guilherme_souza_str_contar_substring.py`
+    * Função `executar()`: Pede um texto principal e uma substring, e imprime: "A substring '[substring]' aparece X vezes em '[texto]'."
 
-Capitalizar Todas as Palavras (Title Case):
-Arquivo: [nome_aluno]_str_title_case.py
-Função executar(): Pede um texto e imprime o mesmo texto com a primeira letra de cada palavra em maiúscula.
+* **Remover Espaços Extras - Gustavo Alves dos Santos**
+    * Arquivo: `gustavo_santos_str_remover_espacos.py`
+    * Função `executar()`: Pede um texto com possíveis espaços extras (início, fim, múltiplos entre palavras) e imprime o texto com espaços normalizados.
 
+* **Capitalizar Todas as Palavras (Title Case) - Lany Isabella Carvalho Freitas**
+    * Arquivo: `lany_freitas_str_title_case.py`
+    * Função `executar()`: Pede um texto e imprime o mesmo texto com a primeira letra de cada palavra em maiúscula.
 
-Grupo: Utilitários de Listas
-(Para entrada de listas, sugira que o aluno peça ao usuário para digitar os elementos separados por vírgula, ex: "maçã,banana,laranja" ou "1,2,3,4,5", e a função executar() faz o parsing)
+---
+## Grupo: Utilitários de Listas
 
-Somar Elementos de Lista de Números:
-Arquivo: [nome_aluno]_list_soma_numeros.py
-Função executar(): Pede uma string de números ("1,2,3"), converte para lista de inteiros/floats, soma e imprime o resultado.
+(Para entrada de listas, sugira que o aluno peça ao usuário para digitar os elementos separados por vírgula, ex: "maçã,banana,laranja" ou "1,2,3,4,5", e a função `executar()` faz o parsing)
 
-Média de Elementos de Lista de Números:
-Arquivo: [nome_aluno]_list_media_numeros.py
-Função executar(): Similar ao anterior, mas calcula e imprime a média.
+* **Somar Elementos de Lista de Números - Luan Antônio de Morais**
+    * Arquivo: `luan_morais_list_soma_numeros.py`
+    * Função `executar()`: Pede uma string de números ("1,2,3"), converte para lista de inteiros/floats, soma e imprime o resultado.
 
-Encontrar Maior Elemento em Lista de Números:
-Arquivo: [nome_aluno]_list_maior_numero.py
-Função executar(): Pede uma string de números, encontra o maior e imprime.
+* **Média de Elementos de Lista de Números - Luiz Felipe Macedo Ferraz**
+    * Arquivo: `luiz_felipe_ferraz_list_media_numeros.py`
+    * Função `executar()`: Similar ao anterior, mas calcula e imprime a média.
 
-Remover Duplicatas de Lista:
-Arquivo: [nome_aluno]_list_remover_duplicatas.py
-Função executar(): Pede uma string de itens ("a,b,a,c"), cria uma lista, remove duplicatas e imprime a lista resultante (pode ser como string ou representação de lista).
+* **Encontrar Maior Elemento em Lista de Números - Luiz Guilherme Oliveira Cabral**
+    * Arquivo: `luiz_guilherme_cabral_list_maior_numero.py`
+    * Função `executar()`: Pede uma string de números, encontra o maior e imprime.
 
-Verificar se Elemento Existe na Lista:
-Arquivo: [nome_aluno]_list_verificar_elemento.py
-Função executar(): Pede uma string de itens para formar a lista e um elemento para buscar. Imprime se o elemento foi encontrado ou não.
+* **Remover Duplicatas de Lista - Marília Almeida Rosa Pereira**
+    * Arquivo: `marilia_pereira_list_remover_duplicatas.py`
+    * Função `executar()`: Pede uma string de itens ("a,b,a,c"), cria uma lista, remove duplicatas e imprime a lista resultante (pode ser como string ou representação de lista).
 
-Concatenar Duas Listas:
-Arquivo: [nome_aluno]_list_concatenar.py
-Função executar(): Pede duas strings de itens (para formar duas listas), concatena-as e imprime a lista resultante.
+* **Verificar se Elemento Existe na Lista - Matheus Guimarães Marquesi**
+    * Arquivo: `matheus_marquesi_list_verificar_elemento.py`
+    * Função `executar()`: Pede uma string de itens para formar a lista e um elemento para buscar. Imprime se o elemento foi encontrado ou não.
 
-Inverter Ordem de Lista:
-Arquivo: [nome_aluno]_list_inverter_ordem.py
-Função executar(): Pede uma string de itens, cria uma lista, inverte sua ordem e imprime.
+* **Concatenar Duas Listas - Murilo Faria Machado Diniz**
+    * Arquivo: `murilo_diniz_list_concatenar.py`
+    * Função `executar()`: Pede duas strings de itens (para formar duas listas), concatena-as e imprime a lista resultante.
 
-Grupo: Utilitários de Dicionários Simples
-(Para simplificar, as funções abaixo podem operar sobre um dicionário exemplo criado dentro da própria função executar(), ou a função pode pedir ao usuário para inserir alguns pares chave-valor para formar um pequeno dicionário dinamicamente.)
+* **Inverter Ordem de Lista - Pedro Augusto Sussa Bastos**
+    * Arquivo: `pedro_bastos_list_inverter_ordem.py`
+    * Função `executar()`: Pede uma string de itens, cria uma lista, inverte sua ordem e imprime.
 
-Criar e Exibir Dicionário:
-Arquivo: [nome_aluno]_dict_criar_exibir.py
-Função executar(): Pede ao usuário para inserir 3 pares chave-valor. Monta um dicionário com eles e depois imprime o dicionário completo.
+---
+## Grupo: Utilitários de Dicionários Simples
 
-Verificar se Chave Existe em Dicionário:
-Arquivo: [nome_aluno]_dict_verificar_chave.py
-Função executar(): Define um dicionário exemplo (ex: {"nome": "Exemplo", "tipo": "Teste"}). Pede uma chave ao usuário e imprime se a chave existe ou não nesse dicionário.
+(Para simplificar, as funções abaixo podem operar sobre um dicionário exemplo criado dentro da própria função `executar()`, ou a função pode pedir ao usuário para inserir alguns pares chave-valor para formar um pequeno dicionário dinamicamente.)
 
-Obter Valor de Chave em Dicionário:
-Arquivo: [nome_aluno]_dict_obter_valor.py
-Função executar(): Define um dicionário exemplo. Pede uma chave ao usuário e imprime o valor correspondente ou uma mensagem de "chave não encontrada".
+* **Criar e Exibir Dicionário - Pedro Henrique Rodrigues Guedes**
+    * Arquivo: `pedro_guedes_dict_criar_exibir.py`
+    * Função `executar()`: Pede ao usuário para inserir 3 pares chave-valor. Monta um dicionário com eles e depois imprime o dicionário completo.
 
-Listar Todas as Chaves de Dicionário:
-Arquivo: [nome_aluno]_dict_listar_chaves.py
-Função executar(): Define um dicionário exemplo e imprime todas as suas chaves.
+* **Verificar se Chave Existe em Dicionário - Pedro Santana Filgueira**
+    * Arquivo: `pedro_filgueira_dict_verificar_chave.py`
+    * Função `executar()`: Define um dicionário exemplo (ex: `{"nome": "Exemplo", "tipo": "Teste"}`). Pede uma chave ao usuário e imprime se a chave existe ou não nesse dicionário.
 
-Listar Todos os Valores de Dicionário:
-Arquivo: [nome_aluno]_dict_listar_valores.py
-Função executar(): Define um dicionário exemplo e imprime todos os seus valores.
+* **Obter Valor de Chave em Dicionário - Ravine Aparecida Rodrigues dos Santos**
+    * Arquivo: `ravine_santos_dict_obter_valor.py`
+    * Função `executar()`: Define um dicionário exemplo. Pede uma chave ao usuário e imprime o valor correspondente ou uma mensagem de "chave não encontrada".
 
-Contar Pares Chave-Valor em Dicionário:
-Arquivo: [nome_aluno]_dict_contar_itens.py
-Função executar(): Define um dicionário exemplo e imprime: "O dicionário possui X itens."
+* **Listar Todas as Chaves de Dicionário - Vagner Lucio Paulino**
+    * Arquivo: `vagner_paulino_dict_listar_chaves.py`
+    * Função `executar()`: Define um dicionário exemplo e imprime todas as suas chaves.
 
+* **Listar Todos os Valores de Dicionário - Warley Lemos Santos**
+    * Arquivo: `warley_santos_dict_listar_valores.py`
+    * Função `executar()`: Define um dicionário exemplo e imprime todos os seus valores.
 
-
-### Atribuição de Tarefas e Nomes de Módulos
-André Luiz Moraes Jarczewski: Contar Vogais em String
-Módulo: funcionalidades_alunos.andre_jarczewski_str_contar_vogais
-Arthur Parreira Alves Ferreira: Contar Consoantes em String
-Módulo: funcionalidades_alunos.arthur_ferreira_str_contar_consoantes
-Gabriel de Souza Prado: Inverter String
-Módulo: funcionalidades_alunos.gabriel_prado_str_inverter
-Geovana Nunes Santos Silva: Verificar Palíndromo
-Módulo: funcionalidades_alunos.geovana_silva_str_palindromo
-Guilherme Evangelista Honorato: Contar Palavras em String
-Módulo: funcionalidades_alunos.guilherme_honorato_str_contar_palavras
-Guilherme Henrique Silva e Souza: Contar Ocorrências de Substring
-Módulo: funcionalidades_alunos.guilherme_souza_str_contar_substring
-Gustavo Alves dos Santos: Remover Espaços Extras de String
-Módulo: funcionalidades_alunos.gustavo_santos_str_remover_espacos
-Lany Isabella Carvalho Freitas: Capitalizar Todas as Palavras (Title Case)
-Módulo: funcionalidades_alunos.lany_freitas_str_title_case
-Luan Antônio de Morais: Somar Elementos de Lista de Números
-Módulo: funcionalidades_alunos.luan_morais_list_soma_numeros
-Luiz Felipe Macedo Ferraz: Calcular Média de Lista de Números
-Módulo: funcionalidades_alunos.luiz_felipe_ferraz_list_media_numeros
-Luiz Guilherme Oliveira Cabral: Encontrar Maior Elemento em Lista de Números
-Módulo: funcionalidades_alunos.luiz_guilherme_cabral_list_maior_numero
-Marília Almeida Rosa Pereira: Remover Duplicatas de Lista
-Módulo: funcionalidades_alunos.marilia_pereira_list_remover_duplicatas
-Matheus Guimarães Marquesi: Verificar se Elemento Existe na Lista
-Módulo: funcionalidades_alunos.matheus_marquesi_list_verificar_elemento
-Murilo Faria Machado Diniz: Concatenar Duas Listas
-Módulo: funcionalidades_alunos.murilo_diniz_list_concatenar
-Pedro Augusto Sussa Bastos: Inverter Ordem de Lista
-Módulo: funcionalidades_alunos.pedro_bastos_list_inverter_ordem
-Pedro Henrique Rodrigues Guedes: Criar e Exibir Dicionário (entrada do usuário)
-Módulo: funcionalidades_alunos.pedro_guedes_dict_criar_exibir
-Pedro Santana Filgueira: Verificar se Chave Existe em Dicionário (exemplo interno)
-Módulo: funcionalidades_alunos.pedro_filgueira_dict_verificar_chave
-Ravine Aparecida Rodrigues dos Santos: Obter Valor de Chave em Dicionário (exemplo interno)
-Módulo: funcionalidades_alunos.ravine_santos_dict_obter_valor
-Vagner Lucio Paulino: Listar Todas as Chaves de Dicionário (exemplo interno)
-Módulo: funcionalidades_alunos.vagner_paulino_dict_listar_chaves
-Warley Lemos Santos: Listar Todos os Valores de Dicionário (exemplo interno)
-Módulo: funcionalidades_alunos.warley_santos_dict_listar_valores
+* **Contar Pares Chave-Valor em Dicionário - (Atribuição pendente)**
+    * Arquivo: `[nome_aluno]_dict_contar_itens.py`
+    * Função `executar()`: Define um dicionário exemplo e imprime: "O dicionário possui X itens."
