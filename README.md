@@ -92,11 +92,13 @@ Antes de enviar seu código, teste-o! Você pode executar seu script diretamente
 python seu_arquivo.py
 
 Exemplo: python ana_silva_str_contar_vogais.py
+
 Verifique se ele pede os inputs corretamente e se a saída é a esperada.
 
 7. Adicionar seu Arquivo ao "Stage" do Git
 Após implementar e testar, adicione seu arquivo para que o Git saiba que você quer incluí-lo no próximo "pacote" de alterações (commit).
 Importante: Adicione APENAS o seu arquivo. Não adicione o main.py ou outros arquivos.
+
 Estando na pasta raiz do projeto (ex: python_estruturas_toolbox/), o comando é:
 
 git add funcionalidades_alunos/seu_arquivo.py
@@ -105,6 +107,7 @@ Exemplo: git add funcionalidades_alunos/ana_silva_str_contar_vogais.py
 
 Para verificar quais arquivos estão prontos para o commit, você pode usar:
 git status
+
 Seu arquivo deve aparecer em verde ("changes to be committed").
 
 8. Fazer o "Commit" das suas Alterações
