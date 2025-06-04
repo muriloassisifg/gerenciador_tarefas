@@ -133,72 +133,94 @@ Antes de enviar seu código, teste-o! Você pode executar seu script diretamente
 Cada aluno implementará sua função em um arquivo separado dentro de funcionalidades_alunos/. A função principal do arquivo do aluno deve se chamar executar(). Esta função será responsável por pedir qualquer input necessário ao usuário e imprimir o resultado da operação.
 
 Grupo: Utilitários de Strings
+
 Contar Vogais em String:
 Arquivo: [nome_aluno]_str_contar_vogais.py
 Função executar(): Pede um texto e imprime: "O texto '[texto]' possui X vogais."
+
 Contar Consoantes em String:
 Arquivo: [nome_aluno]_str_contar_consoantes.py
 Função executar(): Pede um texto e imprime: "O texto '[texto]' possui X consoantes."
+
 Inverter String:
 Arquivo: [nome_aluno]_str_inverter.py
 Função executar(): Pede um texto e imprime: "Texto invertido: [texto_invertido]."
+
 Verificar Palíndromo:
 Arquivo: [nome_aluno]_str_palindromo.py
 Função executar(): Pede um texto e imprime se é ou não um palíndromo (desconsiderar espaços e maiúsculas/minúsculas para a verificação).
+
 Contar Palavras em String:
 Arquivo: [nome_aluno]_str_contar_palavras.py
 Função executar(): Pede um texto e imprime: "O texto contém X palavras."
+
 Contar Ocorrências de Substring:
 Arquivo: [nome_aluno]_str_contar_substring.py
 Função executar(): Pede um texto principal e uma substring, e imprime: "A substring '[substring]' aparece X vezes em '[texto]'."
+
 Remover Espaços Extras:
 Arquivo: [nome_aluno]_str_remover_espacos.py
 Função executar(): Pede um texto com possíveis espaços extras (início, fim, múltiplos entre palavras) e imprime o texto com espaços normalizados.
+
 Capitalizar Todas as Palavras (Title Case):
 Arquivo: [nome_aluno]_str_title_case.py
 Função executar(): Pede um texto e imprime o mesmo texto com a primeira letra de cada palavra em maiúscula.
+
+
 Grupo: Utilitários de Listas
 (Para entrada de listas, sugira que o aluno peça ao usuário para digitar os elementos separados por vírgula, ex: "maçã,banana,laranja" ou "1,2,3,4,5", e a função executar() faz o parsing)
 
 Somar Elementos de Lista de Números:
 Arquivo: [nome_aluno]_list_soma_numeros.py
 Função executar(): Pede uma string de números ("1,2,3"), converte para lista de inteiros/floats, soma e imprime o resultado.
+
 Média de Elementos de Lista de Números:
 Arquivo: [nome_aluno]_list_media_numeros.py
 Função executar(): Similar ao anterior, mas calcula e imprime a média.
+
 Encontrar Maior Elemento em Lista de Números:
 Arquivo: [nome_aluno]_list_maior_numero.py
 Função executar(): Pede uma string de números, encontra o maior e imprime.
+
 Remover Duplicatas de Lista:
 Arquivo: [nome_aluno]_list_remover_duplicatas.py
 Função executar(): Pede uma string de itens ("a,b,a,c"), cria uma lista, remove duplicatas e imprime a lista resultante (pode ser como string ou representação de lista).
+
 Verificar se Elemento Existe na Lista:
 Arquivo: [nome_aluno]_list_verificar_elemento.py
 Função executar(): Pede uma string de itens para formar a lista e um elemento para buscar. Imprime se o elemento foi encontrado ou não.
+
 Concatenar Duas Listas:
 Arquivo: [nome_aluno]_list_concatenar.py
 Função executar(): Pede duas strings de itens (para formar duas listas), concatena-as e imprime a lista resultante.
+
 Inverter Ordem de Lista:
 Arquivo: [nome_aluno]_list_inverter_ordem.py
 Função executar(): Pede uma string de itens, cria uma lista, inverte sua ordem e imprime.
+
 Grupo: Utilitários de Dicionários Simples
 (Para simplificar, as funções abaixo podem operar sobre um dicionário exemplo criado dentro da própria função executar(), ou a função pode pedir ao usuário para inserir alguns pares chave-valor para formar um pequeno dicionário dinamicamente.)
 
 Criar e Exibir Dicionário:
 Arquivo: [nome_aluno]_dict_criar_exibir.py
 Função executar(): Pede ao usuário para inserir 3 pares chave-valor. Monta um dicionário com eles e depois imprime o dicionário completo.
+
 Verificar se Chave Existe em Dicionário:
 Arquivo: [nome_aluno]_dict_verificar_chave.py
 Função executar(): Define um dicionário exemplo (ex: {"nome": "Exemplo", "tipo": "Teste"}). Pede uma chave ao usuário e imprime se a chave existe ou não nesse dicionário.
+
 Obter Valor de Chave em Dicionário:
 Arquivo: [nome_aluno]_dict_obter_valor.py
 Função executar(): Define um dicionário exemplo. Pede uma chave ao usuário e imprime o valor correspondente ou uma mensagem de "chave não encontrada".
+
 Listar Todas as Chaves de Dicionário:
 Arquivo: [nome_aluno]_dict_listar_chaves.py
 Função executar(): Define um dicionário exemplo e imprime todas as suas chaves.
+
 Listar Todos os Valores de Dicionário:
 Arquivo: [nome_aluno]_dict_listar_valores.py
 Função executar(): Define um dicionário exemplo e imprime todos os seus valores.
+
 Contar Pares Chave-Valor em Dicionário:
 Arquivo: [nome_aluno]_dict_contar_itens.py
 Função executar(): Define um dicionário exemplo e imprime: "O dicionário possui X itens."
