@@ -35,33 +35,37 @@ git clone <URL_DO_REPOSITORIO>
 Substitua <URL_DO_REPOSITORIO> pela URL fornecida pelo seu instrutor.
 
 
+
 ### 2. Entrar na Pasta do Projeto
 Navegue para dentro da pasta que foi criada pelo comando clone:
 
-Bash
-
+```sh
 cd nome_do_repositorio
+```
 (O nome_do_repositorio geralmente é o nome que aparece na URL, como python_estruturas_toolbox).
 
-3. Criar sua Branch Pessoal
+
+### 3. Criar sua Branch Pessoal
 É crucial trabalhar em uma branch separada para não interferir diretamente na branch principal (main). Crie uma branch com seu nome e sobrenome (ou um identificador único).
 
-Bash
-
+```sh
 git checkout -b seuprimeironome-seuultimosobrenome
+``` 
 Exemplo: Se seu nome é Ana Silva, o comando seria:
 
-Bash
 
+```sh
 git checkout -b ana-silva
-4. Criar seu Arquivo de Funcionalidade
+```
+
+### 4. Criar seu Arquivo de Funcionalidade
 Agora, você precisa criar o arquivo Python onde sua funcionalidade será implementada.
 
 Primeiro, navegue para a pasta correta:
 
-Bash
-
+```sh
 cd funcionalidades_alunos
+```
 O nome do seu arquivo deve seguir o padrão: seuprimeironome_seuultimosobrenome_categoria_feature.py.
 
 categoria: str (string), list (lista), ou dict (dicionário).
@@ -69,10 +73,10 @@ feature: uma breve descrição da funcionalidade (ex: contar_vogais, soma_numero
 Exemplo: Se Ana Silva vai implementar a contagem de vogais em uma string, o nome do arquivo seria: ana_silva_str_contar_vogais.py.
 Use seu editor de código preferido (VS Code, Sublime Text, PyCharm, etc.) para criar este novo arquivo dentro da pasta funcionalidades_alunos/.
 
-5. Implementar a Função executar()
+### 5. Implementar a Função executar()
 Dentro do seu arquivo recém-criado, defina uma função chamada executar().
 
-Python
+```sh
 
 # Exemplo da estrutura do seu arquivo (ex: ana_silva_str_contar_vogais.py):
 
@@ -89,83 +93,36 @@ def executar():
 # Opcional: Bloco para testar seu script individualmente
 if __name__ == "__main__":
     executar()
+
+```
 Lembre-se: sua função executar() deve ser auto-suficiente para a sua tarefa, pedindo dados e mostrando resultados.
 
-6. Testar sua Funcionalidade Localmente
+### 6. Testar sua Funcionalidade Localmente
 Antes de enviar seu código, teste-o! Você pode executar seu script diretamente pelo terminal (estando na pasta funcionalidades_alunos/):
 
-Bash
 
-python seu_arquivo.py
-Exemplo:
+### 7. Subir suas implementações e sua Branch para o GitHub (Push)
 
-Bash
 
-python ana_silva_str_contar_vogais.py
-Verifique se ele pede os inputs corretamente e se a saída é a esperada.
+### 8. Criar um Pull Request (PR)
 
-7. Adicionar seu Arquivo ao "Stage" do Git
-Após implementar e testar, adicione seu arquivo para que o Git saiba que você quer incluí-lo no próximo "pacote" de alterações (commit).
-Importante: Adicione APENAS o seu arquivo. Não adicione o main.py ou outros arquivos.
+1.  Este é o passo final para propor que suas alterações sejam incorporadas ao projeto principal.
+2.  Abra o navegador e vá para a página do repositório do projeto no GitHub.
+3.  Você provavelmente verá uma notificação amarela com o nome da sua branch e um botão "Compare & pull request". Clique nesse botão.
+4.  Se não vir a notificação, vá na aba "Pull requests" e clique em "New pull request". Selecione a sua branch para comparar com a main.
+5.  Título do PR: Dê um título claro para seu PR (ex: "Implementa funcionalidade de Contar Vogais - Ana Silva").
+6.  Descrição do PR: Adicione uma breve descrição do que você fez, qual funcionalidade implementou, e qualquer observação relevante.
+7.  Revise as alterações ("Files changed") para garantir que você está enviando apenas o seu arquivo com a sua funcionalidade.
+8.  Clique em "Create pull request".
+9.  Seu instrutor será notificado e poderá revisar seu código para integrá-lo ao projeto principal.
 
-Estando na pasta raiz do projeto (ex: python_estruturas_toolbox/), o comando é:
+### Dicas Importantes
 
-Bash
-
-git add funcionalidades_alunos/seu_arquivo.py
-Exemplo:
-
-Bash
-
-git add funcionalidades_alunos/ana_silva_str_contar_vogais.py
-Para verificar quais arquivos estão prontos para o commit, você pode usar:
-
-Bash
-
-git status
-Seu arquivo deve aparecer em verde ("changes to be committed").
-
-8. Fazer o "Commit" das suas Alterações
-Agora, "salve" suas alterações no histórico do Git com uma mensagem descritiva.
-
-Bash
-
-git commit -m "feat: Adiciona funcionalidade de [descrição breve] (Seu Nome)"
-Exemplo:
-
-Bash
-
-git commit -m "feat: Adiciona funcionalidade de contar vogais em string (Ana Silva)"
-feat: indica que é uma nova funcionalidade (feature).
-A mensagem deve ser clara e resumir o que você fez.
-9. Enviar sua Branch para o GitHub (Push)
-Envie sua branch local (com seu commit) para o repositório remoto no GitHub.
-
-Bash
-
-git push origin seuprimeironome-seuultimosobrenome
-Exemplo:
-
-Bash
-
-git push origin ana-silva
-10. Criar um Pull Request (PR)
-Este é o passo final para propor que suas alterações sejam incorporadas ao projeto principal.
-
-Abra o navegador e vá para a página do repositório do projeto no GitHub.
-Você provavelmente verá uma notificação amarela com o nome da sua branch e um botão "Compare & pull request". Clique nesse botão.
-Se não vir a notificação, vá na aba "Pull requests" e clique em "New pull request". Selecione a sua branch para comparar com a main.
-Título do PR: Dê um título claro para seu PR (ex: "Implementa funcionalidade de Contar Vogais - Ana Silva").
-Descrição do PR: Adicione uma breve descrição do que você fez, qual funcionalidade implementou, e qualquer observação relevante.
-Revise as alterações ("Files changed") para garantir que você está enviando apenas o seu arquivo com a sua funcionalidade.
-Clique em "Create pull request".
-Seu instrutor será notificado e poderá revisar seu código para integrá-lo ao projeto principal.
-
-Dicas Importantes
-Foco: Implemente apenas a funcionalidade que lhe foi designada.
-Isolamento: Não modifique o main.py nem arquivos de outros colegas. Trabalhe apenas no seu arquivo dentro de funcionalidades_alunos/.
-Padrão: Mantenha a função executar() como o ponto de entrada principal no seu arquivo.
-Teste: Sempre teste sua funcionalidade localmente antes de fazer o commit e o push.
-Mensagens de Commit: Escreva mensagens de commit claras e significativas.
-Comunicação: Se tiver dúvidas ou encontrar problemas, comunique-se com seu instrutor ou colegas.
-Boa codificação e colaboração!
+1.  Foco: Implemente apenas a funcionalidade que lhe foi designada.
+2.  Isolamento: Não modifique o main.py nem arquivos de outros colegas. 
+3.  Trabalhe apenas no seu arquivo dentro de funcionalidades_alunos/.
+4.  Padrão: Mantenha a função executar() como o ponto de entrada principal no seu arquivo.
+5.  Teste: Sempre teste sua funcionalidade localmente antes de fazer o commit e o push.
+6.  Mensagens de Commit: Escreva mensagens de commit claras e significativas.
+7.  Comunicação: Se tiver dúvidas ou encontrar problemas, comunique-se com seu instrutor ou colegas.
+8.  Boa codificação e colaboração!
