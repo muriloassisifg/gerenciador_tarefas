@@ -1,232 +1,367 @@
-# Caixa de Ferramentas de Estruturas de Dados em Python - Projeto Colaborativo
-
-Bem-vindo ao projeto colaborativo da Caixa de Ferramentas de Estruturas de Dados em Python! O objetivo deste projeto é construir em conjunto um programa Python que ofereça diversas utilidades para manipulação de strings, listas e dicionários.
-
-Cada um de vocês será responsável por implementar uma funcionalidade específica, contribuindo para uma ferramenta maior e mais completa.
-
-## Sobre o Projeto
-
-A "Caixa de Ferramentas" será um programa executado no terminal, onde o usuário poderá escolher, através de um menu, diversas operações para realizar em strings, listas ou dicionários. Cada operação (funcionalidade) será desenvolvida por um aluno da turma.
-
-## Sua Tarefa
-
-Seu instrutor irá designar uma funcionalidade específica para você implementar. Sua tarefa consiste em:
-
-1.  Criar um **novo arquivo Python** dentro da pasta `funcionalidades_alunos/`.
-2.  Nesse arquivo, implementar uma função chamada `executar()`.
-3.  A função `executar()` deve conter toda a lógica para a sua funcionalidade, incluindo:
-    * Solicitar qualquer entrada necessária do usuário (usando `input()`).
-    * Realizar o processamento da estrutura de dados designada.
-    * Imprimir o resultado final da operação de forma clara para o usuário (usando `print()`).
-
-**Importante:** Você **NÃO** deve alterar o arquivo `main.py` ou qualquer arquivo de outro colega. Seu trabalho será focado exclusivamente no seu novo arquivo dentro da pasta `funcionalidades_alunos/`.
-
-## Fluxo de Trabalho com Git e GitHub (Passo a Passo)
-
-Siga atentamente os passos abaixo para contribuir com o projeto:
-
-### 1. Clonar o Repositório
-
-Primeiro, você precisa ter uma cópia local do projeto. Abra o terminal (ou Git Bash) e use o comando:
-
-```sh
-git clone <URL_DO_REPOSITORIO>
-```
-Substitua <URL_DO_REPOSITORIO> pela URL fornecida pelo seu instrutor.
-
-
-
-### 2. Entrar na Pasta do Projeto
-Navegue para dentro da pasta que foi criada pelo comando clone:
-
-```sh
-cd nome_do_repositorio
-```
-(O nome_do_repositorio geralmente é o nome que aparece na URL, como python_estruturas_toolbox).
-
-
-### 3. Criar sua Branch Pessoal
-É crucial trabalhar em uma branch separada para não interferir diretamente na branch principal (main). Crie uma branch com seu nome e sobrenome (ou um identificador único).
-
-```sh
-git checkout -b seuprimeironome-seuultimosobrenome
-``` 
-Exemplo: Se seu nome é Ana Silva, o comando seria:
-
-
-```sh
-git checkout -b ana-silva
-```
-
-### 4. Criar seu Arquivo de Funcionalidade
-Agora, você precisa criar o arquivo Python onde sua funcionalidade será implementada.
-
-Primeiro, navegue para a pasta correta:
-
-```sh
-cd funcionalidades_alunos
-```
-O nome do seu arquivo deve seguir o padrão: seuprimeironome_seuultimosobrenome_categoria_feature.py.
-
-categoria: str (string), list (lista), ou dict (dicionário).
-feature: uma breve descrição da funcionalidade (ex: contar_vogais, soma_numeros, verificar_chave).
-Exemplo: Se Ana Silva vai implementar a contagem de vogais em uma string, o nome do arquivo seria: ana_silva_str_contar_vogais.py.
-Use seu editor de código preferido (VS Code, Sublime Text, PyCharm, etc.) para criar este novo arquivo dentro da pasta funcionalidades_alunos/.
-
-### 5. Implementar a Função executar()
-Dentro do seu arquivo recém-criado, defina uma função chamada executar().
-
-```sh
-
-# Exemplo da estrutura do seu arquivo (ex: ana_silva_str_contar_vogais.py):
-
-def executar():
-    # 1. Peça o input necessário ao usuário aqui
-    #    Exemplo: texto = input("Digite um texto: ")
-    
-    # 2. Coloque a lógica da sua funcionalidade aqui
-    #    Exemplo: numero_de_vogais = ... (cálculo) ...
-    
-    # 3. Imprima o resultado final de forma clara
-    #    Exemplo: print(f"O texto '{texto}' possui {numero_de_vogais} vogais.")
-
-# Opcional: Bloco para testar seu script individualmente
-if __name__ == "__main__":
-    executar()
-
-```
-Lembre-se: sua função executar() deve ser auto-suficiente para a sua tarefa, pedindo dados e mostrando resultados.
-
-### 6. Testar sua Funcionalidade Localmente
-Antes de enviar seu código, teste-o! Você pode executar seu script diretamente pelo terminal (estando na pasta funcionalidades_alunos/):
-
-
-### 7. Subir suas implementações e sua Branch para o GitHub (Push)
-
-
-### 8. Criar um Pull Request (PR)
-
-1.  Este é o passo final para propor que suas alterações sejam incorporadas ao projeto principal.
-2.  Abra o navegador e vá para a página do repositório do projeto no GitHub.
-3.  Você provavelmente verá uma notificação amarela com o nome da sua branch e um botão "Compare & pull request". Clique nesse botão.
-4.  Se não vir a notificação, vá na aba "Pull requests" e clique em "New pull request". Selecione a sua branch para comparar com a main.
-5.  Título do PR: Dê um título claro para seu PR (ex: "Implementa funcionalidade de Contar Vogais - Ana Silva").
-6.  Descrição do PR: Adicione uma breve descrição do que você fez, qual funcionalidade implementou, e qualquer observação relevante.
-7.  Revise as alterações ("Files changed") para garantir que você está enviando apenas o seu arquivo com a sua funcionalidade.
-8.  Clique em "Create pull request".
-9.  Seu instrutor será notificado e poderá revisar seu código para integrá-lo ao projeto principal.
-
-### Dicas Importantes
-
-1.  Foco: Implemente apenas a funcionalidade que lhe foi designada.
-2.  Isolamento: Não modifique o main.py nem arquivos de outros colegas. 
-3.  Trabalhe apenas no seu arquivo dentro de funcionalidades_alunos/.
-4.  Padrão: Mantenha a função executar() como o ponto de entrada principal no seu arquivo.
-5.  Teste: Sempre teste sua funcionalidade localmente antes de fazer o commit e o push.
-6.  Mensagens de Commit: Escreva mensagens de commit claras e significativas.
-7.  Comunicação: Se tiver dúvidas ou encontrar problemas, comunique-se com seu instrutor ou colegas.
-8.  Boa codificação e colaboração!
-
-
+Aqui está uma lista de 20 issues que você pode criar no seu repositório do GitHub. Você pode copiar o título e a descrição de cada uma para criar uma nova issue.
 
 ---
-# Lista de 20+ Funcionalidades (Foco: Strings, Listas, Dicionários)
 
-Cada aluno implementará sua função em um arquivo separado dentro de `funcionalidades_alunos/`. A função principal do arquivo do aluno deve se chamar `executar()`. Esta função será responsável por pedir qualquer `input` necessário ao usuário e imprimir o resultado da operação.
+### **Issue 1: Contar Vogais em String**
+* **Responsável:** André Luiz Moraes Jarczewski
+* **Título:** `feat: Adiciona funcionalidade para contar vogais em um texto`
+* **Descrição:**
+    ```
+    ## Descrição da Tarefa
+    Criar um módulo Python em `funcionalidades_alunos/` que implemente a funcionalidade de contar o número de vogais em um texto fornecido pelo usuário.
 
----
-## Grupo: Utilitários de Strings
-
-* **Contar Vogais em String - André Luiz Moraes Jarczewski**
-    * Arquivo: `andre_jarczewski_str_contar_vogais.py`
-    * Função `executar()`: Pede um texto e imprime: "O texto '[texto]' possui X vogais."
-
-* **Contar Consoantes em String - Arthur Parreira Alves Ferreira**
-    * Arquivo: `arthur_ferreira_str_contar_consoantes.py`
-    * Função `executar()`: Pede um texto e imprime: "O texto '[texto]' possui X consoantes."
-
-* **Inverter String - Gabriel de Souza Prado**
-    * Arquivo: `gabriel_prado_str_inverter.py`
-    * Função `executar()`: Pede um texto e imprime: "Texto invertido: [texto\_invertido]."
-
-* **Verificar Palíndromo - Geovana Nunes Santos Silva**
-    * Arquivo: `geovana_silva_str_palindromo.py`
-    * Função `executar()`: Pede um texto e imprime se é ou não um palíndromo (desconsiderar espaços e maiúsculas/minúsculas para a verificação).
-
-* **Contar Palavras em String - Guilherme Evangelista Honorato**
-    * Arquivo: `guilherme_honorato_str_contar_palavras.py`
-    * Função `executar()`: Pede um texto e imprime: "O texto contém X palavras."
-
-* **Contar Ocorrências de Substring - Guilherme Henrique Silva e Souza**
-    * Arquivo: `guilherme_souza_str_contar_substring.py`
-    * Função `executar()`: Pede um texto principal e uma substring, e imprime: "A substring '[substring]' aparece X vezes em '[texto]'."
-
-* **Remover Espaços Extras - Gustavo Alves dos Santos**
-    * Arquivo: `gustavo_santos_str_remover_espacos.py`
-    * Função `executar()`: Pede um texto com possíveis espaços extras (início, fim, múltiplos entre palavras) e imprime o texto com espaços normalizados.
-
-* **Capitalizar Todas as Palavras (Title Case) - Lany Isabella Carvalho Freitas**
-    * Arquivo: `lany_freitas_str_title_case.py`
-    * Função `executar()`: Pede um texto e imprime o mesmo texto com a primeira letra de cada palavra em maiúscula.
+    ## Requisitos
+    - O nome do arquivo deve ser `contar_vogais.py`.
+    - A função principal `executar()` deve pedir um texto ao usuário.
+    - O programa deve contar todas as vogais (a, e, i, o, u), tanto maiúsculas quanto minúsculas.
+    - A saída deve ser clara, informando o texto original e a quantidade de vogais encontradas.
+    - Exemplo de saída: `O texto 'Olá Mundo' possui 3 vogais.`
+    ```
+* **Labels Sugeridas:** `feature`, `string`, `good first issue`
 
 ---
-## Grupo: Utilitários de Listas
 
-(Para entrada de listas, sugira que o aluno peça ao usuário para digitar os elementos separados por vírgula, ex: "maçã,banana,laranja" ou "1,2,3,4,5", e a função `executar()` faz o parsing)
+### **Issue 2: Contar Consoantes em String**
+* **Responsável:** Arthur Parreira Alves Ferreira
+* **Título:** `feat: Adiciona funcionalidade para contar consoantes em um texto`
+* **Descrição:**
+    ```
+    ## Descrição da Tarefa
+    Criar um módulo Python em `funcionalidades_alunos/` que implemente a funcionalidade de contar o número de consoantes em um texto fornecido pelo usuário.
 
-* **Somar Elementos de Lista de Números - Luan Antônio de Morais**
-    * Arquivo: `luan_morais_list_soma_numeros.py`
-    * Função `executar()`: Pede uma string de números ("1,2,3"), converte para lista de inteiros/floats, soma e imprime o resultado.
-
-* **Média de Elementos de Lista de Números - Luiz Felipe Macedo Ferraz**
-    * Arquivo: `luiz_felipe_ferraz_list_media_numeros.py`
-    * Função `executar()`: Similar ao anterior, mas calcula e imprime a média.
-
-* **Encontrar Maior Elemento em Lista de Números - Luiz Guilherme Oliveira Cabral**
-    * Arquivo: `luiz_guilherme_cabral_list_maior_numero.py`
-    * Função `executar()`: Pede uma string de números, encontra o maior e imprime.
-
-* **Remover Duplicatas de Lista - Marília Almeida Rosa Pereira**
-    * Arquivo: `marilia_pereira_list_remover_duplicatas.py`
-    * Função `executar()`: Pede uma string de itens ("a,b,a,c"), cria uma lista, remove duplicatas e imprime a lista resultante (pode ser como string ou representação de lista).
-
-* **Verificar se Elemento Existe na Lista - Matheus Guimarães Marquesi**
-    * Arquivo: `matheus_marquesi_list_verificar_elemento.py`
-    * Função `executar()`: Pede uma string de itens para formar a lista e um elemento para buscar. Imprime se o elemento foi encontrado ou não.
-
-* **Concatenar Duas Listas - Murilo Faria Machado Diniz**
-    * Arquivo: `murilo_diniz_list_concatenar.py`
-    * Função `executar()`: Pede duas strings de itens (para formar duas listas), concatena-as e imprime a lista resultante.
-
-* **Inverter Ordem de Lista - Pedro Augusto Sussa Bastos**
-    * Arquivo: `pedro_bastos_list_inverter_ordem.py`
-    * Função `executar()`: Pede uma string de itens, cria uma lista, inverte sua ordem e imprime.
+    ## Requisitos
+    - O nome do arquivo deve ser `contar_consoantes.py`.
+    - A função principal `executar()` deve pedir um texto ao usuário.
+    - O programa deve contar todas as consoantes (desconsiderando números, espaços e pontuação).
+    - A saída deve ser clara, informando o texto original e a quantidade de consoantes.
+    - Exemplo de saída: `O texto 'Olá Mundo' possui 5 consoantes.`
+    ```
+* **Labels Sugeridas:** `feature`, `string`, `good first issue`
 
 ---
-## Grupo: Utilitários de Dicionários Simples
 
-(Para simplificar, as funções abaixo podem operar sobre um dicionário exemplo criado dentro da própria função `executar()`, ou a função pode pedir ao usuário para inserir alguns pares chave-valor para formar um pequeno dicionário dinamicamente.)
+### **Issue 3: Inverter String**
+* **Responsável:** Gabriel de Souza Prado
+* **Título:** `feat: Adiciona funcionalidade para inverter um texto`
+* **Descrição:**
+    ```
+    ## Descrição da Tarefa
+    Criar um módulo Python em `funcionalidades_alunos/` que implemente a funcionalidade de inverter um texto fornecido pelo usuário.
 
-* **Criar e Exibir Dicionário - Pedro Henrique Rodrigues Guedes**
-    * Arquivo: `pedro_guedes_dict_criar_exibir.py`
-    * Função `executar()`: Pede ao usuário para inserir 3 pares chave-valor. Monta um dicionário com eles e depois imprime o dicionário completo.
+    ## Requisitos
+    - O nome do arquivo deve ser `inverter_string.py`.
+    - A função principal `executar()` deve pedir um texto ao usuário.
+    - A saída deve mostrar o texto original e o texto invertido.
+    - Exemplo de saída: `O texto 'python' invertido é 'nohtyp'.`
+    ```
+* **Labels Sugeridas:** `feature`, `string`, `good first issue`
 
-* **Verificar se Chave Existe em Dicionário - Pedro Santana Filgueira**
-    * Arquivo: `pedro_filgueira_dict_verificar_chave.py`
-    * Função `executar()`: Define um dicionário exemplo (ex: `{"nome": "Exemplo", "tipo": "Teste"}`). Pede uma chave ao usuário e imprime se a chave existe ou não nesse dicionário.
+---
 
-* **Obter Valor de Chave em Dicionário - Ravine Aparecida Rodrigues dos Santos**
-    * Arquivo: `ravine_santos_dict_obter_valor.py`
-    * Função `executar()`: Define um dicionário exemplo. Pede uma chave ao usuário e imprime o valor correspondente ou uma mensagem de "chave não encontrada".
+### **Issue 4: Verificar Palíndromo**
+* **Responsável:** Geovana Nunes Santos Silva
+* **Título:** `feat: Adiciona funcionalidade para verificar se um texto é palíndromo`
+* **Descrição:**
+    ```
+    ## Descrição da Tarefa
+    Criar um módulo Python em `funcionalidades_alunos/` que verifique se um texto fornecido pelo usuário é um palíndromo.
 
-* **Listar Todas as Chaves de Dicionário - Vagner Lucio Paulino**
-    * Arquivo: `vagner_paulino_dict_listar_chaves.py`
-    * Função `executar()`: Define um dicionário exemplo e imprime todas as suas chaves.
+    ## Requisitos
+    - O nome do arquivo deve ser `verificar_palindromo.py`.
+    - A função principal `executar()` deve pedir um texto ao usuário.
+    - A verificação deve ignorar espaços, pontuação e diferenças entre maiúsculas/minúsculas.
+    - A saída deve informar se o texto é ou não um palíndromo.
+    - Exemplo de entrada/saída: `ovo` -> É palíndromo. `Ame a ema` -> É palíndromo. `casa` -> Não é palíndromo.
+    ```
+* **Labels Sugeridas:** `feature`, `string`, `good first issue`
 
-* **Listar Todos os Valores de Dicionário - Warley Lemos Santos**
-    * Arquivo: `warley_santos_dict_listar_valores.py`
-    * Função `executar()`: Define um dicionário exemplo e imprime todos os seus valores.
+---
 
-* **Contar Pares Chave-Valor em Dicionário - (Atribuição pendente)**
-    * Arquivo: `[nome_aluno]_dict_contar_itens.py`
-    * Função `executar()`: Define um dicionário exemplo e imprime: "O dicionário possui X itens."
+### **Issue 5: Contar Palavras em String**
+* **Responsável:** Guilherme Evangelista Honorato
+* **Título:** `feat: Adiciona funcionalidade para contar palavras em um texto`
+* **Descrição:**
+    ```
+    ## Descrição da Tarefa
+    Criar um módulo Python em `funcionalidades_alunos/` que conte o número de palavras em um texto fornecido pelo usuário.
+
+    ## Requisitos
+    - O nome do arquivo deve ser `contar_palavras.py`.
+    - A função principal `executar()` deve pedir um texto ao usuário.
+    - A saída deve informar a quantidade de palavras encontradas.
+    - Exemplo de saída: `O texto 'Eu amo programar em Python' contém 5 palavras.`
+    ```
+* **Labels Sugeridas:** `feature`, `string`, `good first issue`
+
+---
+
+### **Issue 6: Contar Ocorrências de Substring**
+* **Responsável:** Guilherme Henrique Silva e Souza
+* **Título:** `feat: Adiciona funcionalidade para contar ocorrências de uma substring`
+* **Descrição:**
+    ```
+    ## Descrição da Tarefa
+    Criar um módulo Python em `funcionalidades_alunos/` que conte quantas vezes uma substring aparece em um texto principal.
+
+    ## Requisitos
+    - O nome do arquivo deve ser `contar_substring.py`.
+    - A função `executar()` deve pedir um texto principal e uma substring ao usuário.
+    - A contagem não deve ser sensível a maiúsculas/minúsculas.
+    - A saída deve informar o resultado da contagem.
+    - Exemplo de saída: `A substring 'ana' aparece 2 vezes em 'Ana e Mariana'.`
+    ```
+* **Labels Sugeridas:** `feature`, `string`, `good first issue`
+
+---
+
+### **Issue 7: Remover Espaços Extras de String**
+* **Responsável:** Gustavo Alves dos Santos
+* **Título:** `feat: Adiciona funcionalidade para remover espaços extras de um texto`
+* **Descrição:**
+    ```
+    ## Descrição da Tarefa
+    Criar um módulo Python em `funcionalidades_alunos/` que remova espaços desnecessários de um texto (no início, no fim e múltiplos espaços entre palavras).
+
+    ## Requisitos
+    - O nome do arquivo deve ser `remover_espacos.py`.
+    - A função `executar()` deve pedir um texto ao usuário.
+    - A saída deve mostrar o texto original e o texto corrigido.
+    - Exemplo de entrada/saída: `'  Olá   mundo!  '` -> `'Olá mundo!'`.
+    ```
+* **Labels Sugeridas:** `feature`, `string`, `good first issue`
+
+---
+
+### **Issue 8: Capitalizar Todas as Palavras (Title Case)**
+* **Responsável:** Lany Isabella Carvalho Freitas
+* **Título:** `feat: Adiciona funcionalidade para capitalizar palavras (Title Case)`
+* **Descrição:**
+    ```
+    ## Descrição da Tarefa
+    Criar um módulo Python em `funcionalidades_alunos/` que converta a primeira letra de cada palavra de um texto para maiúscula.
+
+    ## Requisitos
+    - O nome do arquivo deve ser `capitalizar_palavras.py`.
+    - A função `executar()` deve pedir um texto ao usuário.
+    - A saída deve mostrar o texto original e o texto formatado.
+    - Exemplo de entrada/saída: `'o senhor dos anéis'` -> `'O Senhor Dos Anéis'`.
+    ```
+* **Labels Sugeridas:** `feature`, `string`, `good first issue`
+
+---
+
+### **Issue 9: Somar Elementos de Lista de Números**
+* **Responsável:** Luan Antônio de Morais
+* **Título:** `feat: Adiciona funcionalidade para somar elementos de uma lista`
+* **Descrição:**
+    ```
+    ## Descrição da Tarefa
+    Criar um módulo Python em `funcionalidades_alunos/` que some todos os números de uma lista fornecida pelo usuário.
+
+    ## Requisitos
+    - O nome do arquivo deve ser `somar_lista.py`.
+    - A função `executar()` deve pedir ao usuário uma lista de números separados por vírgula (ex: "10, 5, 2.5").
+    - O programa deve converter a string de entrada em uma lista de números (inteiros ou floats) e calcular a soma.
+    - A saída deve mostrar a soma total.
+    - Exemplo de saída: `A soma dos elementos [10, 5, 2.5] é 17.5.`
+    ```
+* **Labels Sugeridas:** `feature`, `list`, `good first issue`
+
+---
+
+### **Issue 10: Calcular Média de Lista de Números**
+* **Responsável:** Luiz Felipe Macedo Ferraz
+* **Título:** `feat: Adiciona funcionalidade para calcular a média de uma lista`
+* **Descrição:**
+    ```
+    ## Descrição da Tarefa
+    Criar um módulo Python em `funcionalidades_alunos/` que calcule a média dos números de uma lista fornecida pelo usuário.
+
+    ## Requisitos
+    - O nome do arquivo deve ser `calcular_media_lista.py`.
+    - A função `executar()` deve pedir ao usuário uma lista de números separados por vírgula (ex: "10, 8, 9").
+    - O programa deve calcular a média aritmética dos números.
+    - A saída deve mostrar a média.
+    - Exemplo de saída: `A média dos elementos [10, 8, 9] é 9.0.`
+    ```
+* **Labels Sugeridas:** `feature`, `list`, `good first issue`
+
+---
+
+### **Issue 11: Encontrar Maior Elemento em Lista de Números**
+* **Responsável:** Luiz Guilherme Oliveira Cabral
+* **Título:** `feat: Adiciona funcionalidade para encontrar o maior número em uma lista`
+* **Descrição:**
+    ```
+    ## Descrição da Tarefa
+    Criar um módulo Python em `funcionalidades_alunos/` que encontre o maior número em uma lista fornecida pelo usuário.
+
+    ## Requisitos
+    - O nome do arquivo deve ser `encontrar_maior_numero.py`.
+    - A função `executar()` deve pedir ao usuário uma lista de números separados por vírgula.
+    - A saída deve mostrar qual é o maior número da lista.
+    - Exemplo de saída: `O maior número na lista [15, 4, 99, 32] é 99.`
+    ```
+* **Labels Sugeridas:** `feature`, `list`, `good first issue`
+
+---
+
+### **Issue 12: Remover Duplicatas de Lista**
+* **Responsável:** Marília Almeida Rosa Pereira
+* **Título:** `feat: Adiciona funcionalidade para remover elementos duplicados de uma lista`
+* **Descrição:**
+    ```
+    ## Descrição da Tarefa
+    Criar um módulo Python em `funcionalidades_alunos/` que remova elementos duplicados de uma lista fornecida pelo usuário.
+
+    ## Requisitos
+    - O nome do arquivo deve ser `remover_duplicatas.py`.
+    - A função `executar()` deve pedir ao usuário uma lista de itens separados por vírgula (ex: "a,b,c,a,b").
+    - A saída deve mostrar a lista original e a lista sem os elementos duplicados.
+    - Exemplo de saída: `A lista ['a', 'b', 'c', 'a', 'b'] sem duplicatas é ['a', 'b', 'c'].`
+    ```
+* **Labels Sugeridas:** `feature`, `list`, `good first issue`
+
+---
+
+### **Issue 13: Verificar se Elemento Existe na Lista**
+* **Responsável:** Matheus Guimarães Marquesi
+* **Título:** `feat: Adiciona funcionalidade para verificar a existência de um elemento em uma lista`
+* **Descrição:**
+    ```
+    ## Descrição da Tarefa
+    Criar um módulo Python em `funcionalidades_alunos/` que verifique se um elemento específico existe em uma lista.
+
+    ## Requisitos
+    - O nome do arquivo deve ser `verificar_elemento.py`.
+    - A função `executar()` deve pedir uma lista de itens (separados por vírgula) e um elemento para buscar.
+    - A saída deve informar se o elemento foi encontrado ou não na lista.
+    - Exemplo de saída: `O elemento 'banana' foi encontrado na lista.` ou `O elemento 'uva' não foi encontrado na lista.`
+    ```
+* **Labels Sugeridas:** `feature`, `list`, `good first issue`
+
+---
+
+### **Issue 14: Concatenar Duas Listas**
+* **Responsável:** Murilo Faria Machado Diniz
+* **Título:** `feat: Adiciona funcionalidade para concatenar duas listas`
+* **Descrição:**
+    ```
+    ## Descrição da Tarefa
+    Criar um módulo Python em `funcionalidades_alunos/` que junte (concatene) duas listas fornecidas pelo usuário.
+
+    ## Requisitos
+    - O nome do arquivo deve ser `concatenar_listas.py`.
+    - A função `executar()` deve pedir duas listas de itens (separados por vírgula).
+    - A saída deve mostrar a nova lista resultante da concatenação.
+    - Exemplo de saída: `A junção de ['a', 'b'] e ['c', 'd'] é ['a', 'b', 'c', 'd'].`
+    ```
+* **Labels Sugeridas:** `feature`, `list`, `good first issue`
+
+---
+
+### **Issue 15: Inverter Ordem de Lista**
+* **Responsável:** Pedro Augusto Sussa Bastos
+* **Título:** `feat: Adiciona funcionalidade para inverter a ordem de uma lista`
+* **Descrição:**
+    ```
+    ## Descrição da Tarefa
+    Criar um módulo Python em `funcionalidades_alunos/` que inverta a ordem dos elementos de uma lista fornecida pelo usuário.
+
+    ## Requisitos
+    - O nome do arquivo deve ser `inverter_lista.py`.
+    - A função `executar()` deve pedir uma lista de itens (separados por vírgula).
+    - A saída deve mostrar a lista original e a lista com a ordem invertida.
+    - Exemplo de saída: `A lista ['a', 'b', 'c'] invertida é ['c', 'b', 'a'].`
+    ```
+* **Labels Sugeridas:** `feature`, `list`, `good first issue`
+
+---
+
+### **Issue 16: Criar e Exibir Dicionário**
+* **Responsável:** Pedro Henrique Rodrigues Guedes
+* **Título:** `feat: Adiciona funcionalidade para criar um dicionário a partir da entrada do usuário`
+* **Descrição:**
+    ```
+    ## Descrição da Tarefa
+    Criar um módulo Python em `funcionalidades_alunos/` que permita ao usuário criar um pequeno dicionário.
+
+    ## Requisitos
+    - O nome do arquivo deve ser `criar_dicionario.py`.
+    - A função `executar()` deve pedir ao usuário para inserir 3 pares de chave e valor.
+    - Após a inserção, o programa deve montar e exibir o dicionário completo.
+    - Exemplo de saída: `O dicionário criado foi: {'nome': 'Ana', 'idade': '25', 'cidade': 'São Paulo'}.`
+    ```
+* **Labels Sugeridas:** `feature`, `dictionary`, `good first issue`
+
+---
+
+### **Issue 17: Verificar se Chave Existe em Dicionário**
+* **Responsável:** Pedro Santana Filgueira
+* **Título:** `feat: Adiciona funcionalidade para verificar se uma chave existe em um dicionário`
+* **Descrição:**
+    ```
+    ## Descrição da Tarefa
+    Criar um módulo Python em `funcionalidades_alunos/` que verifique se uma chave existe em um dicionário de exemplo.
+
+    ## Requisitos
+    - O nome do arquivo deve ser `verificar_chave_dicionario.py`.
+    - A função `executar()` deve ter um dicionário pré-definido (ex: `{'produto': 'Notebook', 'preco': 4500}`).
+    - O programa deve pedir uma chave ao usuário e informar se ela existe ou não no dicionário.
+    - Exemplo de saída: `A chave 'preco' existe no dicionário.`
+    ```
+* **Labels Sugeridas:** `feature`, `dictionary`, `good first issue`
+
+---
+
+### **Issue 18: Obter Valor de Chave em Dicionário**
+* **Responsável:** Ravine Aparecida Rodrigues dos Santos
+* **Título:** `feat: Adiciona funcionalidade para obter o valor de uma chave em um dicionário`
+* **Descrição:**
+    ```
+    ## Descrição da Tarefa
+    Criar um módulo Python em `funcionalidades_alunos/` que retorne o valor associado a uma chave em um dicionário de exemplo.
+
+    ## Requisitos
+    - O nome do arquivo deve ser `obter_valor_dicionario.py`.
+    - A função `executar()` deve ter um dicionário pré-definido (ex: `{'produto': 'Notebook', 'preco': 4500}`).
+    - O programa deve pedir uma chave ao usuário e exibir o valor correspondente, ou uma mensagem de erro se a chave não existir.
+    - Exemplo de saída: `O valor da chave 'produto' é 'Notebook'.`
+    ```
+* **Labels Sugeridas:** `feature`, `dictionary`, `good first issue`
+
+---
+
+### **Issue 19: Listar Todas as Chaves de Dicionário**
+* **Responsável:** Vagner Lucio Paulino
+* **Título:** `feat: Adiciona funcionalidade para listar todas as chaves de um dicionário`
+* **Descrição:**
+    ```
+    ## Descrição da Tarefa
+    Criar um módulo Python em `funcionalidades_alunos/` que liste todas as chaves de um dicionário de exemplo.
+
+    ## Requisitos
+    - O nome do arquivo deve ser `listar_chaves_dicionario.py`.
+    - A função `executar()` deve ter um dicionário pré-definido.
+    - A saída deve mostrar todas as chaves do dicionário.
+    - Exemplo de saída: `As chaves do dicionário são: ['produto', 'preco', 'marca'].`
+    ```
+* **Labels Sugeridas:** `feature`, `dictionary`, `good first issue`
+
+---
+
+### **Issue 20: Listar Todos os Valores de Dicionário**
+* **Responsável:** Warley Lemos Santos
+* **Título:** `feat: Adiciona funcionalidade para listar todos os valores de um dicionário`
+* **Descrição:**
+    ```
+    ## Descrição da Tarefa
+    Criar um módulo Python em `funcionalidades_alunos/` que liste todos os valores de um dicionário de exemplo.
+
+    ## Requisitos
+    - O nome do arquivo deve ser `listar_valores_dicionario.py`.
+    - A função `executar()` deve ter um dicionário pré-definido.
+    - A saída deve mostrar todos os valores do dicionário.
+    - Exemplo de saída: `Os valores do dicionário são: ['Notebook', 4500, 'MarcaX'].`
+    ```
+* **Labels Sugeridas:** `feature`, `dictionary`, `good first issue`
