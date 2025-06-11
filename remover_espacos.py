@@ -5,5 +5,7 @@ def executar():
             print("Encerrando o programa.")
             break
         texto_normalizado = ' '.join(texto.split())
+        print("Texto original:")
+        print(f"'{texto}'")
         print("Texto com espaços normalizados:")
-        print(texto_normalizado)
+        print(f"'{texto_normalizado}'")

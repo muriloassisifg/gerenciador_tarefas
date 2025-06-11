@@ -5,4 +5,4 @@ def executar():
 
     media = sum(numeros) / len(numeros)
 
-    print(f"A media é {media}")
+    print(f"A media dos elementos é: {media}")
